@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block contain %}
+
+<div class="d-flex justify-content-center p-5">
+    <div>
+        <h2>Welcome to {{first}} {{last}}</h2>
+        <a class="btn btn-warning border-0" href="{% url "edit_page" %}">Edit Profile</a>
+    </div>
+    <div>
+    </div>
+</div>
+
+{% endblock contain %}
